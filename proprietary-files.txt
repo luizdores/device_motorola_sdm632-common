@@ -45,6 +45,11 @@ vendor/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 
+# Camera
+product/etc/permissions/com.motorola.camera2.denali.xml:vendor/etc/permissions/com.motorola.camera2.denali.xml
+product/etc/permissions/privapp-permissions-com.motorola.camera2.xml
+-product/priv-app/MotCamera2/MotCamera2.apk;PRESIGNED
+
 # CNE
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
@@ -423,7 +428,6 @@ vendor/lib64/libOmxWmaDec.so
 # Moto Permissions
 product/etc/permissions/com.motorola.moto-uirefresh.xml
 product/etc/permissions/com.motorola.motodisplay.xml
-product/etc/permissions/com.motorola.camera2.denali.xml:vendor/etc/permissions/com.motorola.camera2.denali.xml
 
 # Offmode charging
 vendor/bin/charge_only_mode
